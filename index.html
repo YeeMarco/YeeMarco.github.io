@@ -29,45 +29,53 @@
         </div>			
       </div>
     </div>
-    <div class="container">
+    <div class="container"  onclick="nav(path.personal_resume)">
       <div class="card">
         <img src="./static/resume_Compression.jpg" alt="front">
         <div class="caption">
           <h2>personal  <span>RESUME</span></h2>
-          <p>react + webpack</p>
+          <p>js + svg</p>
           
         </div>			
       </div>
     </div>
-    <div class="container">
-      <div class="card" onclick="nav(path.yee_blog)">
+    <div class="container"  onclick="nav(path.yee_blog)">
+      <div class="card">
         <img src="./static/blog_Compression.jpg" alt="front">
         <div class="caption">
           <h2>yee <span>BLOG</span></h2>
-          <p>react + webpack</p>
-          
+          <p>hexo + nextl</p>
         </div>			
       </div>
     </div>
-
-    <div class="cover">
-        <div class="stars1"></div>
-        <div class="stars2"></div>
-        <div class="stars3"></div>
+    <div class="container"  onclick="nav(path.yee_blog)">
+      <div class="card">
+        <img src="./static/manage.jpg" alt="front">
+        <div class="caption">
+          <h2>management <span>System</span></h2>
+          <p>react + webpack</p>
+        </div>			
+      </div>
     </div>
+    
   </div>
   
-  
+  <div class="cover">
+    <div class="stars1"></div>
+    <div class="stars2"></div>
+    <div class="stars3"></div>
+  </div>
   
 
 <script>
   let path = {
     cloud_disk: 'http://120.79.81.207:8001/',
     site_awesome:'',
-    personal_resume:'',
+    personal_resume:'https://yeemarco.github.io/resume/index.html',
     yee_blog:'https://yeemarco.github.io/YeeMarco/index.html'
   }
   function nav(path){
+    
     window.location.href = path
   }
 </script>
