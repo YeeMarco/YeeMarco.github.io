@@ -23,7 +23,7 @@
       </div>
     </div>
     <div class="container">
-      <div class="card">
+      <div class="card" onclick="nav(path.site_awesome)">
         <img src="./static/site_Compression.jpg" alt="front">
         <div class="caption">
           <h2>site <span>AWESOME</span></h2>
@@ -41,6 +41,16 @@
         </div>
       </div>
     </div>
+    <div class="container" onclick="nav(path.land)">
+      <div class="card">
+        <img src="./static/manage.jpg" alt="front">
+        <div class="caption">
+          <h2><span>landing page</span></h2>
+          <p>vue + lottie </p>
+
+        </div>
+      </div>
+    </div>
     <div class="container" onclick="nav(path.yee_blog)">
       <div class="card">
         <img src="./static/blog_Compression.jpg" alt="front">
@@ -50,7 +60,7 @@
         </div>
       </div>
     </div>
-    <div class="container" onclick="nav(path.yee_blog)">
+    <!-- <div class="container" onclick="nav(path.yee_blog)">
       <div class="card">
         <img src="./static/manage.jpg" alt="front">
         <div class="caption">
@@ -58,7 +68,7 @@
           <p>react + webpack</p>
         </div>
       </div>
-    </div>
+    </div> -->
 
   </div>
 
@@ -72,7 +82,8 @@
   <script>
     let path = {
       cloud_disk: 'http://106.15.33.245:8888/',
-      site_awesome: '',
+      site_awesome: 'http://106.15.33.245:8083/',
+      land: 'http://106.15.33.245:8084/',
       personal_resume: 'https://yeemarco.github.io/resume/index.html',
       yee_blog: 'https://yeemarco.github.io/YeeMarco/index.html'
     }
